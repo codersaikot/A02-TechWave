@@ -6,16 +6,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TECHIE</title>
 </head>
-<body>
+<body class="bg-[#1a0b2e] text-white">
   <!-- NAVBAR -->
     <header class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
     <h1 class="text-2xl font-bold">TechWave</h1>
 
     <ul class="hidden md:flex space-x-8 text-gray-300">
         <li><a href="#"></a>Home</a></li>
-        <li><a href="#"></a>Episodes</a></li>
         <li><a href="#"></a>About</a></li>
-        <li><a href="#"></a>Contact</a></li>
+        <li><a href="#"></a>Host</a></li>
     </ul>
 
     <button class="hidden md:block px-6 py-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
@@ -30,7 +29,7 @@
   <div class="max-w-7xl mx-auto px-6 text-center">
 
     <div class="relative inline-block mb-6">
-      <img src="assets/images/podcast.png" class="w-56 mx-auto rounded-full border-4 border-purple-500" />
+      <img src="./assets/apple-podcast.png" class="w-56 mx-auto rounded-full border-4 border-purple-500" />
 
       <!-- NEW Badge -->
       <span class="absolute top-2 right-2 bg-pink-500 text-xs px-3 py-1 rounded-full">
@@ -80,6 +79,104 @@
 
 </section>
 
+<!-- ================= WHY CHOOSE SECTION ================= -->
+<section class="bg-[#111132] py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+
+    <h3 class="text-3xl font-bold mb-10">Why Choose TechWave</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+
+      <div class="bg-[#1A1A3D] p-6 rounded-xl">
+        <h4 class="font-bold mb-2">Expert Guests</h4>
+        <p class="text-gray-400 text-sm">Industry leaders share real experience.</p>
+      </div>
+
+      <div class="bg-[#1A1A3D] p-6 rounded-xl">
+        <h4 class="font-bold mb-2">Weekly Episodes</h4>
+        <p class="text-gray-400 text-sm">Fresh content every week.</p>
+      </div>
+
+      <div class="bg-[#1A1A3D] p-6 rounded-xl">
+        <h4 class="font-bold mb-2">Tech Trends</h4>
+        <p class="text-gray-400 text-sm">Latest technology discussions.</p>
+      </div>
+
+      <div class="bg-[#1A1A3D] p-6 rounded-xl">
+        <h4 class="font-bold mb-2">Community</h4>
+        <p class="text-gray-400 text-sm">Join thousands of developers.</p>
+      </div>
+
+      <div class="bg-[#1A1A3D] p-6 rounded-xl">
+        <h4 class="font-bold mb-2">Free Access</h4>
+        <p class="text-gray-400 text-sm">Listen anywhere for free.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED EPISODES ================= -->
+<section class="max-w-7xl mx-auto px-6 py-16 text-center">
+
+  <h3 class="text-3xl font-bold mb-10">Featured Episodes</h3>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- Card -->
+    <div class="bg-[#1A1A3D] p-4 rounded-xl">
+      <iframe class="w-full rounded-lg mb-4" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+      <h4 class="font-bold">Future of Web Development</h4>
+      <p class="text-gray-400 text-sm">Duration: 45 min</p>
+    </div>
+
+    <div class="bg-[#1A1A3D] p-4 rounded-xl">
+      <iframe class="w-full rounded-lg mb-4" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+      <h4 class="font-bold">AI & Programming</h4>
+      <p class="text-gray-400 text-sm">Duration: 38 min</p>
+    </div>
+
+    <div class="bg-[#1A1A3D] p-4 rounded-xl">
+      <iframe class="w-full rounded-lg mb-4" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+      <h4 class="font-bold">Career Tips for Devs</h4>
+      <p class="text-gray-400 text-sm">Duration: 50 min</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= HOST SECTION (BONUS) ================= -->
+<section class="bg-[#111132] py-16">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+
+    <img src="assets/images/host.jpg" class="rounded-xl w-full">
+
+    <div>
+      <h3 class="text-3xl font-bold mb-4">John Doe</h3>
+      <p class="text-gray-400 mb-4">
+        Senior Software Engineer and TechWave Podcast Host.
+      </p>
+
+      <div class="flex gap-4 text-xl">
+        <span>🌐</span>
+        <span>🐦</span>
+        <span>📘</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="text-center py-10 bg-black">
+    <img src="./assets/footer-bg.png" alt="">
+  <h4 class="">TechWave Podcast</h4>
+  <p class="text-gray-500 mt-2">© 2026 TechWave. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
 
 </body>
 </html>
